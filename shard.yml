@@ -2,11 +2,13 @@ name: mau
 version: 0.1.0
 
 authors:
-  - your-name-here <your-email-here>
+  - Mnimi Aionios <mechild02@gmail.com>
+  - SzKing1011    <szthompson1011@gmail.com>
+  - ShockEMP      <meakoda2@gmail.com>
 
 targets:
   mau:
-    main: src/mau.cr
+    main: src/main.cr
 
 crystal: 0.35.1
 
