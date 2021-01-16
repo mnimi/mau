@@ -9,9 +9,19 @@
 //! To start the game in normal mode, you can run 'cargo run -- basic'
 //! To start the game in expert mode, you can run 'cargo run -- expert'
 
-use std::io;
+extern crate amethyst;
+
+#[macro_use]
+extern crate serde;
+extern crate serde_derive;
+
+#[macro_use]
+extern crate toml;
+
+pub mod config;
+pub mod game;
 
 fn main()
 {
-  println!("Hello, world!");
+
 }

@@ -7,3 +7,10 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+serde = "1.0.119"
+serde_derive = "1.0.119"
+toml = "0.5.8"
+
+[dependencies.amethyst]
+version = "0.15.3"
+features = ["vulkan"]
