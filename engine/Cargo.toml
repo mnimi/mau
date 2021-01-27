@@ -1,0 +1,11 @@
+[package]
+name = "mini-game"
+version = "0.0.1"
+edition = "2018"
+
+[dependencies]
+
+[lib]
+name = "mnimi"
+path = "lib.rs"
+crate-type = ["cdylib"]
